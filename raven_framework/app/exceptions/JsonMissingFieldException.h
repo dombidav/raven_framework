@@ -8,7 +8,7 @@ namespace raven::exceptions
 	{
 	public:
 
-		explicit JsonMissingFieldException(const char* json, const char * field_name) : JsonException(json)
+		explicit JsonMissingFieldException(const char* field_name, const char * json) : JsonException(json)
 		{
 			field_name_ = field_name;
 		}
