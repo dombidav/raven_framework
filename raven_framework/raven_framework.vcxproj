@@ -90,7 +90,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>C:\Repos\raven_framework\raven_framework\raven_framework\app\views;C:\Repos\raven_framework\raven_framework\raven_framework\app\models;C:\Repos\raven_framework\raven_framework\raven_framework\app\core;C:\Repos\raven_framework\raven_framework\raven_framework\app\controllers;C:\Repos\raven_framework\raven_framework\raven_framework\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Repos\raven_framework\raven_framework\raven_framework\app\exceptions;C:\Repos\raven_framework\raven_framework\raven_framework\app\views;C:\Repos\raven_framework\raven_framework\raven_framework\app\models;C:\Repos\raven_framework\raven_framework\raven_framework\app\core;C:\Repos\raven_framework\raven_framework\raven_framework\app\controllers;C:\Repos\raven_framework\raven_framework\raven_framework\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,6 +143,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="raven.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\exceptions\JsonException.h" />
+    <ClInclude Include="app\exceptions\JsonMissingFieldException.h" />
+    <ClInclude Include="app\exceptions\RavenException.h" />
+    <ClInclude Include="app\models\model.h" />
+    <ClInclude Include="app\models\User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -19,4 +19,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\models\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app\models\User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app\exceptions\JsonException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app\exceptions\RavenException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app\exceptions\JsonMissingFieldException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
