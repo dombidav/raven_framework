@@ -90,6 +90,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>C:\Repos\raven_framework\raven_framework\raven_framework\app\views;C:\Repos\raven_framework\raven_framework\raven_framework\app\models;C:\Repos\raven_framework\raven_framework\raven_framework\app\core;C:\Repos\raven_framework\raven_framework\raven_framework\app\controllers;C:\Repos\raven_framework\raven_framework\raven_framework\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
