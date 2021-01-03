@@ -142,11 +142,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="app\core\Validator.cpp" />
     <ClCompile Include="raven.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="app\core\Validator.h" />
+    <ClInclude Include="app\exceptions\FailedValidationException.h" />
     <ClInclude Include="app\exceptions\JsonException.h" />
-    <ClInclude Include="app\exceptions\JsonMissingFieldException.h" />
+    <ClInclude Include="app\exceptions\MissingFieldException.h" />
     <ClInclude Include="app\exceptions\RavenException.h" />
     <ClInclude Include="app\models\model.h" />
     <ClInclude Include="app\models\User.h" />

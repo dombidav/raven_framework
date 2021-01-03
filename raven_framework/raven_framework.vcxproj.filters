@@ -18,6 +18,9 @@
     <ClCompile Include="raven.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="app\core\Validator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="app\models\model.h">
@@ -32,7 +35,13 @@
     <ClInclude Include="app\exceptions\RavenException.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="app\exceptions\JsonMissingFieldException.h">
+    <ClInclude Include="app\exceptions\MissingFieldException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app\exceptions\FailedValidationException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="app\core\Validator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
