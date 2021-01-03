@@ -72,12 +72,16 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Repos\raven_framework\raven_framework\raven_framework\app\views;C:\Repos\raven_framework\raven_framework\raven_framework\app\models;C:\Repos\raven_framework\raven_framework\raven_framework\app\exceptions;C:\Repos\raven_framework\raven_framework\raven_framework\app\core;C:\Repos\raven_framework\raven_framework\raven_framework\app\controllers;C:\Repos\raven_framework\raven_framework\raven_framework\includes\mysql_cpp_connector\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Repos\raven_framework\raven_framework\raven_framework\app\exceptions;C:\Repos\raven_framework\raven_framework\raven_framework\app\core;C:\Repos\raven_framework\raven_framework\raven_framework\app\;C:\Repos\raven_framework\raven_framework\raven_framework\app\controllers;C:\Repos\raven_framework\raven_framework\raven_framework\app\views;C:\Repos\raven_framework\raven_framework\raven_framework\app\models;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -146,6 +150,7 @@
     <ClCompile Include="raven.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="app\core\Collection.h" />
     <ClInclude Include="app\core\Validator.h" />
     <ClInclude Include="app\exceptions\FailedValidationException.h" />
     <ClInclude Include="app\exceptions\JsonException.h" />

@@ -82,6 +82,8 @@ Built with:
 * [Crow](https://github.com/CrowCpp/crow)
 * [Boost](https://www.boost.org/)
 * [RapidJSON](https://rapidjson.org/)
+* [MySQL C++ Connector](https://dev.mysql.com/doc/connector-cpp/8.0/en/)
+* [ODB](https://www.codesynthesis.com/products/odb)
 
 
 

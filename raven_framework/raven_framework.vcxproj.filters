@@ -44,5 +44,8 @@
     <ClInclude Include="app\core\Validator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="app\core\Collection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
